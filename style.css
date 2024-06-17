@@ -1,0 +1,136 @@
+.titles{
+    font-size: 4em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(141, 189, 231);
+    transform: translateY(150%);
+    margin-bottom: 150px;
+     
+}
+
+#Sign_in_button {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    color: #333; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    border-radius: 20px; /* Rounded corners */
+    position: fixed; /* Fixed position */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    z-index: 999; /* Ensure it appears above other elements */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+#Sign_in_button:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Lighten background color on hover */
+}
+
+body{
+    background-image: url(ComputerTyping_MainPage_background.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the containers */
+    padding: 20px;
+    flex-wrap: wrap;
+    border-radius: 25px;
+}
+
+
+.left-container{
+    translate: 25%; 
+    display: flex;
+    flex-direction: column;
+    width: 25%; /* Adjust the width as needed */
+    background-color: rgba(5, 47, 87, 0.247);
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    overflow: scroll;
+}
+
+.right-container{
+    translate: -25%;
+    display: flex;
+    flex-direction: column;
+    width: 25%; /* Adjust the width as needed */
+    background-color: rgba(5, 47, 87, 0.247);
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    overflow: scroll;
+}
+
+
+/* flexbox for socials */
+.middle-buttons {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the container horizontally */
+    width: 25%; /* Ensure decent spacing width */
+    
+}
+#Twitter_Icon{
+    color: #1DA1F2;
+}
+#Youtube_Icon{
+    color: #CD201F;
+}
+#Instagram_Icon {
+    color: #C13584;
+}
+#Briefcase_Icon{
+    color: #492207;
+}
+
+
+
+
+
+.box {
+    border: 2px solid aliceblue;
+    padding: 20px; /* Add padding inside each box */
+    margin: 10px 0; /* Add margin around each box */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for boxes */
+    height: 50px; /* Set the desired height for the boxes */
+    border-radius: 5%;
+    color: aliceblue;
+    min-width: 150px; /* Limit min width for windwo resizing*/
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Stack icon and text vertically */
+    align-items: center; /* Center icon and text horizontally */
+}
+
+.content i {
+    font-size: 2em; /* Adjust icon size as needed */
+    margin-bottom: 10px; /* Space between icon and text */
+    
+}
+
+.content span {
+    font-size: 1.5em; /* Adjust text size as needed */
+    
+}
+
+.button{
+    border: none;
+    background-color: rgba(68, 0, 255, 0);
+    width: 100%;
+    padding: none;
+}
+
+.button:hover{
+    cursor: pointer;
+}
